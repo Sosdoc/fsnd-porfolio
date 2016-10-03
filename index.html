@@ -31,26 +31,27 @@
 
         <!-- Logo and Name -->
         <header class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-3 col-xs-2">
                 <img class="img-responsive title-logo" src="img/logo_b.svg" alt="logo">
             </div>
-            <div class="col-md-6 text-right text-uppercase">
+            <div class="col-md-6 col-sm-9 col-xs-10 text-right text-uppercase">
                 <h1 class="name title-super text-thin">Valerio Pipolo</h1>
-                <h4 class="subtitle">Experienced Meowgician</h4>
+                <h4 class="subtitle">Software Engineer</h4>
             </div>
         </header>
 
-        <div class="row">
-            <div class="col-md-12">
-                <hr>
-            </div>
-        </div>
+        <hr>
 
         <!-- Main image -->
         <section class="row">
             <figure class="col-md-12">
-                <img class="img-responsive" sizes="(min-width: 900px) 1000w" srcset="img/amsterdam_1000.jpg 1000w, img/amsterdam_500.jpg 500w" src="img/amsterdam_1000.jpg" alt="A nice view of a canal in Amsterdam">
+                <img class="img-responsive" 
+                sizes="(min-width: 900px) 1000w" srcset="img/ehv-2048.jpg 1000w, img/ehv-1024.jpg 500w"
+                src="img/ehv-2048.jpg" alt="A view of Eindhoven's city center">
             </figure>
+            <p class="col-md-12 lead intro-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
         </section>
 
         <!-- Projects -->
@@ -59,41 +60,50 @@
                 <h2>Featured Work</h2>
             </div>
         
-            <div class="row projects text-center">
+            <div class="col-md-12 projects text-center">
                 <div class="project col-md-4">
                     <img class="img-responsive center-block" src="img/gb-1x.jpg" srcset="img/gb-3x.jpg 3x, img/gb-2x.jpg 2x, img/gb-1x.jpg 1x" alt="proj img">
-                    <h3 class="text-uppercase">Appify</h3>
-                    <a href="https://github.com/udacity/appify/" class="project-url">https://github.com/udacity/appify/</a>
+                    <h3 class="text-uppercase">Gameboy emulator</h3>
+                    <p class="text-project">
+                        An emulator for the original gameboy, developed using Rust. In progress.
+                    </p>
+                    <a href="https://github.com/Sosdoc/jeebie" class="project-url">https://github.com/Sosdoc/jeebie</a>
                 </div>
 
                 <div class="project col-md-4">
                     <img class="img-responsive center-block" src="img/prog-1x.jpg" srcset="img/prog-3x.jpg 3x, img/prog-2x.jpg 2x, img/prog-1x.jpg 1x" alt="proj img">
-                    <h3 class="text-uppercase">Sunflower</h3>
-                    <a href="https://github.com/udacity/sunflower/" class="project-url">https://github.com/udacity/sunflower/</a>
+                    <h3 class="text-uppercase">Lisp interpreter</h3>
+                    <p class="text-project">
+                        An interpreter for a Lisp-like language, supports lambda functions and closures. Developed in Rust.
+                    </p>
+                    <a href="https://github.com/Sosdoc/rustl" class="project-url">https://github.com/Sosdoc/rustl</a>
                 </div>
 
                 <div class="project col-md-4">
                     <img class="img-responsive center-block" src="img/picross-1x.jpg" srcset="img/picross-3x.jpg 3x, img/picross-2x.jpg 2x, img/picross-1x.jpg 1x" alt="proj img">
-                    <h3 class="text-uppercase">Appify</h3>
-                    <a href="https://github.com/udacity/Appify/" class="project-url">https://github.com/udacity/Appify/</a>
+                    <h3 class="text-uppercase">Picross solver</h3>
+                    <p class="text-project">
+                        A solver for picross (aka nonogram) puzzles. Written in Go, also ported <a href="https://github.com/Sosdoc/Pybnsolve" class="project-url">to Python</a>.
+                    </p>
+                    <a href="https://github.com/Sosdoc/gongram" class="project-url">https://github.com/Sosdoc/gongram</a>
                 </div>
             </div>
         </section>
         
         <footer class="row">
             <div class="col-md-12">
-                <h2>Contact me</h2>
+                <h2>Social Profiles</h2>
             </div>
 
             <div class="col-md-12 text-center">
-                <a href="https://linkedin.com">
-                    <i class="fa fa-linkedin-square fa-3x social-icon" aria-hidden="true"></i>
+                <a href="https://linkedin.com" class="btn social-icon">
+                    <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com">
-                    <i class="fa fa-github-square fa-3x social-icon" aria-hidden="true"></i>
+                <a href="https://github.com" class="btn social-icon">
+                    <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
                 </a>
-                <a href="https://stackoverflow.com">
-                    <i class="fa fa-stack-overflow fa-3x social-icon" aria-hidden="true"></i>
+                <a href="https://stackoverflow.com" class="btn social-icon">
+                    <i class="fa fa-stack-overflow fa-3x" aria-hidden="true"></i>
                 </a>
             </div>
         </footer>
