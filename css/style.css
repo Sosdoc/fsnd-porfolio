@@ -9,8 +9,6 @@ footer {
 }
 
 .intro-text {
-    /*margin-top: 20px;
-    margin-bottom: 20px;*/
     margin: 20px 0;
 }
 
@@ -31,6 +29,6 @@ footer {
     margin-left: 10px;
 }
 
-.social-icon::last-of-type {
+.social-icon:last-of-type {
     margin-left: 0;
 }
