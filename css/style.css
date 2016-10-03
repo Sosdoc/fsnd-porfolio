@@ -24,11 +24,3 @@ footer {
     margin-top: 20px;
     width: 4em;
 }
-
-.social-icon {
-    margin-left: 10px;
-}
-
-.social-icon:last-of-type {
-    margin-left: 0;
-}
