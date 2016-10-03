@@ -1,0 +1,40 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+}
+
+/* Tap targets bigger than the average finger (40x40) */
+nav a, button {
+    min-width: 48px;
+    min-height: 48px;
+}
+
+footer {
+    margin-bottom: 20px;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 58px;
+}
+
+.title-logo {
+    margin-top: 20px;
+    width: 20%;
+}
+
+.social-icon {
+    margin-left: 10px;
+}
+
+.social-icon::last-of-type {
+    margin-left: 0;
+}
